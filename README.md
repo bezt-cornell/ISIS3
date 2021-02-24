@@ -109,7 +109,7 @@ This installation guide is for ISIS users interested in installing ISIS (3.6.0)+
 
         python $CONDA_PREFIX/scripts/isisVarInit.py --data-dir=[path to data directory]  --test-dir=[path to test data directory]
 
-    More information about the ISISDATA environment variable and the ISIS Data Area can be found [here]("#The-ISIS-Data-Area"). Now everytime the isis environment is activated, $ISISROOT, $ISISDATA, and $ISISTESTDATA will be set to the values passed to isisVarInit.py. This does not happen retroactively, so re-activate the isis envionment with one of the following commands:
+    More information about the ISISDATA environment variable and the ISIS Data Area can be found [here](README.md#The-ISIS-Data-Area). Now everytime the isis environment is activated, $ISISROOT, $ISISDATA, and $ISISTESTDATA will be set to the values passed to isisVarInit.py. This does not happen retroactively, so re-activate the isis envionment with one of the following commands:
 
         for Anaconda 3.4 and up - conda activate isis
         prior to Anaconda 3.4 - source activate isis
